@@ -1,0 +1,482 @@
+/***
+
+====================================================================
+ Counter css
+====================================================================
+
+***/
+
+.counter-box {
+  background: #003478;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.icon-outer {
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 120px;
+  padding: 31px;
+  margin: 0 auto 20px;
+}
+
+.counter-box span.icon-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../ra-image/theme-icon-2.png) center center no-repeat;
+  opacity: 0.1;
+  background-size: contain;
+}
+
+.counter-box span.icon-bg {
+  -webkit-animation-name: rotateScale;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateScale;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateScale;
+  -ms-animation-duration: 20s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: rotateScale;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateScale {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotateScale {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotateScale {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotateScale {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.counter-box h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.counter-box p.count-text {
+  font-size: 16px;
+}
+
+.icon-outer i {
+  background: #fff;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  color: #003478;
+  font-size: 35px;
+  line-height: 52px;
+}
+
+
+/***
+
+====================================================================
+ Services Section
+====================================================================
+
+***/
+
+
+
+/**** banner section*****/
+.banner_section {
+background-image: url(../images/home_1_banner_img.png);
+  background-blend-mode: overlay;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner_section h1{
+    color: #EDEDED;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.banner_text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+
+
+/*** feel rested section ***/
+.feel_rested-sec{
+  background-image: url(../images/feel_rested_img.png);
+    background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 210px 0px;
+}
+
+.feel_rested-sec .inner_text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+.feel_rested-sec .inner_text .img_sec img{
+
+max-width: 123px;
+width: 100%;
+height: 74px;
+}
+.feel_rested-sec .inner_text .small_text{
+font-family: Franklin Gothic Book;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+
+.we_build_sec .box_section .card {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.we_build_sec .box_section .card .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we_build_sec .box_section .card .text img{
+    height: 76px;
+    max-width:70px;
+  margin-bottom:10px;
+}
+.we_build_sec .box_section .card .circle{
+    background: #FFD9DA;
+    max-width: 100%;
+    height: 104px;
+    width: 104px;
+    border-radius: 50%;
+  }
+
+.we_build_sec .box_section .card .text h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.we_build_sec .box_section .card .text p:nth-of-type(1){
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.we_build_sec .box_section .card .text p:nth-of-type(2){
+    margin: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.we_build_sec .box_section .card .links{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.we_build_sec .box_section .card .links i{
+    color: rgb(35, 182, 219);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.we_build_sec .box_section .card .links i:hover{
+    color:rgb(29, 157, 189) ;
+}
+
+
+
+
+
+/*** we are team ssection ***/
+.we_are_team_sec h2{
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: center;
+}
+.we_are_team_sec h2 span{
+
+    color: blue;
+}
+
+.we_are_team_sec .small_text{
+font-family: Franklin Gothic Book;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+
+
+.testimonials{
+position: relative;
+    padding: 100px 0px;
+
+}
+#customers-testimonials {
+  .item-details{
+    background-color: #333333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: left;
+  }
+    h5{
+      margin: 0 0 15px;
+      font-size: 18px;
+      line-height: 18px;
+    }
+      span{
+        color: red;
+        float:right;
+        padding-right: 20px;
+      }
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  .item {
+      text-align: center;
+      // padding: 20px;
+      margin-bottom:80px;
+  }
+}
+.owl-carousel .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.owl-carousel .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+.owl-carousel {
+  position: relative;
+}
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  font-size: 50px;
+  color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.owl-carousel .owl-prev {
+  left: -70px;
+}
+.owl-carousel .owl-next {
+  right: -70px;
+}
+
+.owl-carousel .owl-item img{
+      max-width: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 140px;
+}
+
+
+
+.owl-carousel .owl-item h5{
+  color: #0c0b47;
+  font-size: 30px;
+}
+
+.owl-carousel .owl-next, .owl-carousel .owl-prev:before{
+    color: #0c0b47;
+    content: "\f104";
+    position: absolute;
+    content: "\f104";
+    position: absolute;
+    font-size: 37px;
+    font-family: 'FontAwesome';
+}
+
+.owl-carousel .owl-item p{
+	    color: #3a3a3a91;
+}
+
+
+
+
+
+/*-------------Join Us Section---------*/
+.join-us-sec:before {
+    content: "";
+    position: absolute;
+    background-size: 16%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+    background-image: url(../images/dots.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    top: -70px;
+}
+
+
+.join-us-sec h2{
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.join-us-sec h2 span{
+    color: blue;
+}
+.join-us-sec .small_text{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 176.5%;
+  text-align: center;
+  color: #0D0A47;
+}
+.join-us-sec .role-sec {
+    padding-top: 50px;
+}
+.join-us-sec .deg_role{
+  display:flex;
+}
+.join-us-sec .deg_role i {
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 147.5%;
+    color: #0D0A47;
+}
+.join-us-sec .deg_role p {
+    font-size: 18px;
+    line-height: 147.5%;
+    color: #0D0A47;
+}
+.join-us-sec .deg-para1 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 147.5%;
+    color: #272726;
+    opacity: 0.5;
+    left: 12%;
+    position: relative;
+}
+.join-us-sec .role-sec .col-lg-4 {
+    padding: 0px 35px;
+}
+@media(max-width:991px){
+  .join-us-sec .deg-para1 p{
+        left: 4%;
+  }
+}
+@media(max-width:767px){
+  .section {
+      padding: 30px 0px;
+  }
+  .footer-logo {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }  
+}
+
+
+/*--------partners and Investors section----------*/
+
+.section .container{
+  max-width: 1255px;
+}
+.partners-block {
+    background: #F1EEEE;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+}
+.parters-section h1 {
+    margin-bottom: 36px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    color: #0D0A47;
+}
+
+
+
+
+
+

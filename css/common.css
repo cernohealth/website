@@ -1,0 +1,330 @@
+
+body {
+	font-family: 'Garnett Regular';
+	font-size: 16px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+
+.container{
+	max-width: 80%;
+}
+
+/***
+
+====================================================================
+ Header Css
+====================================================================
+
+***/
+
+.main-header {
+	 background: transparent;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+	top: 0;
+	padding: 55px 0px;
+}
+.main-header .navigation ul.navbar-nav li {
+	padding: 0px 14px;
+}
+.main-header .navigation ul.navbar-nav li:last-child {
+	padding: 0;
+}
+.main-header .navigation ul.navbar-nav li a {
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: #F01F1F;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #F01F1F;
+}
+
+.main-header.fixed {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+  background: #0c0b47;
+  padding:20px 0px;
+}
+
+.main-header .logo-item img{
+
+    max-width: 200px;
+    height: 50px;
+}
+
+
+
+
+/***
+
+====================================================================
+ Footer  css
+====================================================================
+
+
+
+
+
+/***
+
+====================================================================
+ Common Css
+====================================================================
+
+***/
+
+.section {
+	position: relative;
+	padding: 50px 0;
+	overflow: hidden;
+}
+
+.main-page-content {
+	padding-top: 95px;
+}
+
+.card {
+	border: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/** button style***/
+
+
+button::before,
+button::after {
+  position: absolute;
+  content: "";
+}
+
+.btn-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 50px auto 35px;
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+   border: 1px solid rgb(28, 31, 30);
+}
+  .btn span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 8px 10px;
+    transition: 0.3s;
+  }
+
+.btn-2::before {
+      background-color: rgb(12 11 71);
+  transition: 0.3s ease-out;
+}
+.btn-2 span {
+  color: rgb(28, 31, 30);
+  transition: 0.2s;
+}  
+.btn-2 span:hover {
+  color: rgb(255,255,255);
+  transition: 0.2s 0.1s;
+}
+
+/* 6. hover-slide-down */
+.btn.hover-slide-down::before {
+  top: 0; left: 0; right: 0; 
+  height: 0%; width: 100%;
+}
+.btn.hover-slide-down:hover::before {
+  height: 100%;
+}
+
+
+
+
+
+.mobile-wrapper {
+	display: none;
+}
+
+.section a,
+.section a:hover,
+a,
+a:hover {
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	text-decoration: none;
+}
+
+body p,
+body a,
+body ul li a {
+	font-size: 17px;
+	line-height: 1.8;
+}
+
+
+/***
+
+====================================================================
+Footer section
+====================================================================
+
+***/
+
+
+
+
+
+.footer-section p{
+  font-family: "Franklin Gothic Book";
+}
+.footer-section{
+  background-color:#0D0A47;
+  padding: 80px 0px;
+}
+.footer-section h4 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 0;
+    color: #fff;
+    padding: 10px 0px 30px;
+    margin-bottom: 15px;
+}
+.footer-section p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 132.5%;
+    color: #FFFFFF;
+}
+.footer-section .privacy-row p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 0;
+    color: #FFFFFF;
+    opacity: 0.52;
+    
+}
+.footer-section form#footer-c-form input,
+.footer-section form#footer-c-form textarea {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin:3px 0px;
+}
+.footer-section form#footer-c-form input{
+   height: 50px;
+   padding-left:10px;
+}
+.footer-section #footer-c-form textarea{
+  height:160px;
+  padding:10px;
+}
+.footer-section #footer-c-form input::placeholder,
+.footer-section #footer-c-form textarea::placeholder{
+  color:#fff;
+}
+.footer-section button.submit-btn {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 115px;
+}
+.footer-section .c_form {
+    padding: 25px 0px;
+}
+.footer-section .submit-btn {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.footer-section .submit-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0d0a47;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.footer-section .submit-btn:hover,
+.footer-section .submit-btn:focus,
+.footer-section .submit-btn:active {
+  color: white;
+}
+.footer-section .submit-btn:hover:before,
+.footer-section .submit-btn:focus:before,
+.footer-section .submit-btn:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
