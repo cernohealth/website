@@ -45,7 +45,7 @@ html {
 	padding: 0;
 }
 .main-header .navigation ul.navbar-nav li a {
-font-family: 'Montserrat', sans-serif;
+font-family: Libre Franklin !important;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -218,13 +218,14 @@ Footer section
 
 
 .footer-section p{
-  font-family: "Franklin Gothic Book";
+  font-family:Libre Franklin !important;
 }
 .footer-section{
   background-color:#0D0A47;
   padding: 80px 0px;
 }
 .footer-section h4 {
+  font-family: 'Rubik' !important;
     font-weight: normal;
     font-size: 36px;
     line-height: 0;
@@ -265,6 +266,10 @@ Footer section
 .footer-section #footer-c-form input::placeholder,
 .footer-section #footer-c-form textarea::placeholder{
   color:#fff;
+  font-family:'Libre Franklin' !important;
+}
+#footer-c-form input::placeholder{
+  font-family: 'Libre Franklin' !important;
 }
 .footer-section button.submit-btn {
     background: #fff;
