@@ -242,10 +242,19 @@ Footer section
 .footer-section .privacy-row p {
     font-weight: normal;
     font-size: 16px;
-    line-height: 0;
+    line-height: 4;
     color: #FFFFFF;
     opacity: 0.52;
     
+}
+.footer-section .privacy-row {
+    display: flex;
+}
+.footer-section .privacy-row .privacy a {
+    color: #ffffff;
+}
+.footer-section .privacy-row .privacy a:hover {
+    color: #ff6e79;
 }
 .footer-section form#footer-c-form input,
 .footer-section form#footer-c-form textarea {
