@@ -337,6 +337,17 @@ letter-spacing: 0em;
 text-align: center;
 }
 
+p.subtitle {
+    font-family: Libre Franklin !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 147.5%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #3A3A3A;
+    opacity: 0.5;
+}
 
 
 .testimonials{
@@ -629,7 +640,7 @@ content: "";
 }
 .shadow-effect .item-details h5 {
     font-family:Libre Franklin !important;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 132.5%;
     text-align: center;
     color: #3A3A3A;
@@ -913,4 +924,15 @@ font-family: 'Rubik' !important;
   .feel_rested-sec h1{
     font-size: 1.5rem !important;
   }
+}
+
+@media (min-width: 850px) and (max-width: 1293px){
+ h5#item3 {
+     width: max-content;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+h5.m-3 {
+    width: max-content;
+}
 }
