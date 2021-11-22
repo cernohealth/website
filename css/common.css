@@ -241,11 +241,14 @@ Footer section
 }
 .footer-section .privacy-row p {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 4;
     color: #FFFFFF;
     opacity: 0.52;
     
+}
+.privacy a {
+    font-size: 14px !important;
 }
 .footer-section .privacy-row {
     display: flex;
@@ -292,9 +295,9 @@ Footer section
 }
 .footer-section .submit-btn {
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
+  #vertical-align: middle;
+  #-webkit-transform: perspective(1px) translateZ(0);
+  #transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
@@ -325,7 +328,7 @@ Footer section
 .footer-section .submit-btn:hover,
 .footer-section .submit-btn:focus,
 .footer-section .submit-btn:active {
-  color: white;
+  #color: white;
 }
 .footer-section .submit-btn:hover:before,
 .footer-section .submit-btn:focus:before,

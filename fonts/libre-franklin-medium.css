@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Libre Franklin Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Libre Franklin Medium'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin Medium';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Libre Franklin Medium'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-mediumitalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Libre Franklin'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Libre Franklin'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin Thin';
+    font-style: normal;
+    font-weight: 250;
+    src: local('Libre Franklin Thin'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin Thin';
+    font-style: italic;
+    font-weight: 250;
+    src: local('Libre Franklin Thin'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-thinitalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin ExtraLight';
+    font-style: normal;
+    font-weight: 275;
+    src: local('Libre Franklin ExtraLight'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-extralight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin ExtraLight';
+    font-style: italic;
+    font-weight: 275;
+    src: local('Libre Franklin ExtraLight'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-extralightitalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Libre Franklin Light'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin Light';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Libre Franklin Light'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-lightitalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Libre Franklin SemiBold'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin SemiBold';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Libre Franklin SemiBold'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-semibolditalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Libre Franklin'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Libre Franklin'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-bolditalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Libre Franklin ExtraBold'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-extrabold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin ExtraBold';
+    font-style: italic;
+    font-weight: 800;
+    src: local('Libre Franklin ExtraBold'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-extrabolditalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin Black';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Libre Franklin Black'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Franklin Black';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Libre Franklin Black'), url('https://fonts.cdnfonts.com/s/14444/librefranklin-blackitalic.woff') format('woff');
+}
+
