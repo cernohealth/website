@@ -259,30 +259,60 @@ Footer section
 .footer-section .privacy-row .privacy a:hover {
     color: #ff6e79;
 }
-.footer-section form#footer-c-form input,
+/*.footer-section form#footer-c-form input,
 .footer-section form#footer-c-form textarea {
     width: 100%;
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
     margin:3px 0px;
+}*/
+
+.footer-section form#my-form input,
+.footer-section form#my-form textarea {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin:3px 0px;
 }
-.footer-section form#footer-c-form input{
+/*.footer-section form#footer-c-form input{
+   height: 50px;
+   padding-left:10px;
+}*/
+
+.footer-section form#my-form input{
    height: 50px;
    padding-left:10px;
 }
-.footer-section #footer-c-form textarea{
+/*.footer-section #footer-c-form textarea{
+  height:160px;
+  padding:10px;
+}*/
+
+.footer-section #my-form textarea{
   height:160px;
   padding:10px;
 }
-.footer-section #footer-c-form input::placeholder,
+/*.footer-section #footer-c-form input::placeholder,
 .footer-section #footer-c-form textarea::placeholder{
   color:#fff;
   font-family:'Libre Franklin' !important;
+}*/
+.footer-section #my-form input::placeholder,
+.footer-section #my-form textarea::placeholder{
+  color:#fff;
+  font-family:'Libre Franklin' !important;
 }
-#footer-c-form input::placeholder{
+
+/*#footer-c-form input::placeholder{
+  font-family: 'Libre Franklin' !important;
+}*/
+
+#my-form input::placeholder{
   font-family: 'Libre Franklin' !important;
 }
+
 .footer-section button.submit-btn {
     background: #fff;
     color: #000;

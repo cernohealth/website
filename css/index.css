@@ -1,3 +1,6 @@
+p.sendmsg {
+     font-size: 25px !important;
+}
 /***
 
 ====================================================================
@@ -14,6 +17,7 @@
 }
 #icon-card .card{
     border-bottom: 3px solid transparent;
+    pointer-events: none;
 }
 .counter-box {
   background: #003478;
@@ -911,8 +915,17 @@ font-size: 22px;
     margin-bottom: 0px;
 }
 }
-#footer-c-form input::placeholder{
+/*#footer-c-form input::placeholder{
   font-family: 'Libre Franklin' !important;
+}*/
+#fmy-form input::placeholder{
+  font-family: 'Libre Franklin' !important;
+}
+
+p#my-form-status {
+    font-size: unset;
+    line-height: unset;
+    font-weight: unset;
 }
 .feel_rested-sec h1{
 color: #0D0A47;

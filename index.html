@@ -5,12 +5,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Cerno Health</title>
       <!-- font awesome boxicons font -->
-      <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
       <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
       <!-- Bootstrap css -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <!-- wow animation -->
-      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+     <!--  <link rel="stylesheet" type="text/css" href="css/animate.min.css"> -->
       <!-- common css -->
       <link rel="stylesheet" type="text/css" href="css/common.css">
       <!-- page css -->
@@ -19,8 +19,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link href="fonts/family=Rubik.css" rel='stylesheet'>
       <link href="fonts/libre-franklin-medium.css" rel='stylesheet'>
-
-
+                
+      
    </head>
    <body class="main-div">
       <div class="main-header">
@@ -28,7 +28,7 @@
             <div class="row">
                <div class="col-lg-4 desktop-wrapper">
                   <div class="logo-item">
-                     <a href="https://cerno.io/"><img src="images/logo.png"></a>
+                     <img src="images/logo.png">
                   </div>
                </div>
                <div class="col-lg-8 col-sm-12 col-xs-12">
@@ -39,7 +39,7 @@
                         </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                        </button>
+                        </button>            
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                            <ul class="navbar-nav mr-auto ">
                               <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -124,7 +124,7 @@
             <div class="head_sec mb-4 wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                <h2>We’re challenging the status quo and working towards a world with better sleep for all.</h2>
             </div>
-            <div class="small_text text-center wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms">The Cerno Health team brings expertise in sleep, biomedical signal processing, health<br> tech, and biopharma to help change the landscape of sleep tracking and treatment.
+            <div class="small_text text-center wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms">The Cerno Health team brings expertise in sleep, biomedical signal processing, health<br> tech, and biopharma to help change the landscape of sleep tracking and treatment. 
 
 </div>
          </div>
@@ -184,7 +184,7 @@
                       </div>
                     </div>
                  </div>
-               </div>
+               </div> 
 
                 <!-- <div class="row mt-4">
                  <div class="col-md-2"></div>
@@ -218,10 +218,10 @@
          </section>
          <!-- END OF TESTIMONIALS -->
          <div class="we_are_challenge_back1">
-
+           
          </div>
          <div class="we_are_challenge_back2">
-
+           
          </div>
       </div>
 
@@ -246,7 +246,7 @@
             </div>
           </div>
           <!-- <div class="col-lg-2 col-sm-4">
-            <div class="partners-block">
+            <div class="partners-block"> 
             </div>
           </div>
           <div class="col-lg-2 col-sm-4">
@@ -266,8 +266,8 @@
             <div class="partners-block"></div>
           </div> -->
         </div>
-      </div>
-    </div>
+      </div>  
+    </div>  
 
     <div class="section join-us-sec" id="careers">
       <div class="container">
@@ -321,22 +321,29 @@
               <h4>Contact Us</h4>
               <p>Get in touch to learn more about a good night's sleep.</p>
               <div class="c_form">
-
-                <form method="post" id="footer-c-form">
-                  <input type="text" name="name" placeholder="Name" id="fname"><br><br>
-                  <input type="email" name="email" placeholder="Email Address" id="mail"><br><br>
-                  <textarea placeholder="Message" id="msg"></textarea><br><br>
-                  <button class="submit-btn" id="demo"><!-- <a href="mailto:anusha@cerno.health"> -->Send<!-- </a> --></button>
+                <form id="my-form" action="https://formspree.io/f/xeqnjqjw" method="POST">
+                    <input type="text" name="name" placeholder="Name" id="fname" required/>
+                    <br>
+                    <br>
+                    <input type="email" name="email" placeholder="Email Address" id="mail" required />
+                    <br>
+                    <br>
+                  
+                    <!-- <input type="textarea" name="message" placeholder="Message" id="msg" required/> -->
+                    <textarea name="message" placeholder="Message" id="msg" required></textarea>
+                    <br>
+                    <br>
+                    <button id="my-form-button" class="submit-btn">Send</button>
+                    <p id="my-form-status"></p>
                 </form>
-
               </div>
             </div>
           </div>
         </div>
         <div class="privacy-row">
-          <p>Cerno Health © 2021. All Rights Reserved. </p >
-          <p class="privacy" style="padding-left: 10px;"> <a href="https://cerno.health/privacy_policy_page.html" target="_blank">  Privacy Policy</a> And <a href="https://cerno.health/terms_of_use.pdf"target="_blank">Terms of Use</a></p>
-        </div>
+          <p>Cerno Health © 2021. All Rights Reserved. </p > 
+          <p class="privacy" style="padding-left: 10px;"> <a href="../Final_home_03_template/privacy_policy_page.html" target="_blank">  Privacy Policy</a> And <a href="../Final_home_03_template/terms_of_use.pdf"target="_blank">Terms of Use</a></p>
+        </div>  
       </div>
     </div>
       <!-- jquery.min.js -->
@@ -352,7 +359,7 @@
          $(window).scroll(function(){
          var sticky = $('.main-header'),
          scroll = $(window).scrollTop();
-
+         
          if (scroll >= 100) sticky.addClass('fixed');
          else sticky.removeClass('fixed');
          });
@@ -385,21 +392,28 @@
          });
          });
       </script>
-      <script src="https://smtpjs.com/v3/smtp.js"></script>
-      <script type="text/javascript" >
 
-        $( document ).ready(function() {
-
-          $("#demo").click(function(){
-            var name = $("#fname").val();
-            var mail = $("#mail").val();
-            var msg = $("#msg").val();
-            var link = "mailto:amardeepp@walstartechnologies.com?subject=" + name +"&body=" + mail + msg;
-  window.location.href = link;
-
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = '<p id="thanks" style="font-family: Libre Franklin !important; margin-top: 15px;">Thanks for your submission!</p>';
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
       });
-});
-      </script>
-
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
    </body>
 </html>
