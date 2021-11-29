@@ -945,13 +945,13 @@ font-family: 'Rubik' !important;
 
 @media (min-width: 850px) and (max-width: 1293px){
  h5#item3 {
-     width: max-content;
+     /*width: max-content;*/
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-h5.m-3 {
+/*h5.m-3 {
     width: max-content;
-}
+}*/
 }
  @media (max-width: 991px){
   .main-header {
