@@ -807,7 +807,7 @@ button#demo {
     padding: 25px 0;
   }
   .feel_rested-sec h1{
-     font-size: 30px;
+     font-size: 21px;
   }
   .feel_rested-sec .inner_text {
     text-align: center !important;
@@ -931,13 +931,22 @@ p#my-form-status {
 color: #0D0A47;
 font-family: 'Rubik' !important;
 }
+@media (min-width: 1500px){
+  .feel_rested-sec h1{
+    font-size: 2rem !important;
+  }
+} 
 @media (min-width: 1200px) and (max-width: 1500px){
   .feel_rested-sec h1{
     font-size: 1.7rem !important;
   }
 }
-
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 590px) and (max-width: 880px){
+  .feel_rested-sec h1{
+    font-size: 1.1rem !important;
+  }
+}
+@media (min-width: 881px) and (max-width: 1200px){
   .feel_rested-sec h1{
     font-size: 1.5rem !important;
   }
