@@ -953,6 +953,11 @@ font-family: 'Rubik' !important;
     width: max-content;
 }*/
 }
+@media (min-width: 3024px){
+  .inner_text h1.wow.fadeInDown.animated.mb-4.animated {
+    font-size: 35px !important;
+}
+}
  @media (max-width: 991px){
   .main-header {
     padding: 20px 0px;
@@ -965,3 +970,7 @@ font-family: 'Rubik' !important;
     padding: 0 40px 0 40px;
 }
  }
+ button#my-form-button {
+  font-family: 'garnet-normal', sans-serif;
+  cursor: pointer;
+}
