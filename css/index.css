@@ -794,7 +794,7 @@ button#demo {
   }
   .main-header .logo-item img {
     width: 100%;
-    max-width: 80px;
+    max-width: 80%;
   }
   .main-page-content {
     padding-top: 83px;
