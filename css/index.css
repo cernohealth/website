@@ -794,7 +794,7 @@ button#demo {
   }
   .main-header .logo-item img {
     width: 100%;
-    max-width: 80%;
+    max-width: 80px;
   }
   .main-page-content {
     padding-top: 83px;
@@ -807,7 +807,7 @@ button#demo {
     padding: 25px 0;
   }
   .feel_rested-sec h1{
-     font-size: 21px;
+     font-size: 30px;
   }
   .feel_rested-sec .inner_text {
     text-align: center !important;
@@ -931,22 +931,13 @@ p#my-form-status {
 color: #0D0A47;
 font-family: 'Rubik' !important;
 }
-@media (min-width: 1500px){
-  .feel_rested-sec h1{
-    font-size: 2rem !important;
-  }
-} 
 @media (min-width: 1200px) and (max-width: 1500px){
   .feel_rested-sec h1{
     font-size: 1.7rem !important;
   }
 }
-@media (min-width: 590px) and (max-width: 880px){
-  .feel_rested-sec h1{
-    font-size: 1.1rem !important;
-  }
-}
-@media (min-width: 881px) and (max-width: 1200px){
+
+@media (min-width: 768px) and (max-width: 1200px){
   .feel_rested-sec h1{
     font-size: 1.5rem !important;
   }
@@ -962,11 +953,6 @@ font-family: 'Rubik' !important;
     width: max-content;
 }*/
 }
-@media (min-width: 3024px){
-  .inner_text h1.wow.fadeInDown.animated.mb-4.animated {
-    font-size: 35px !important;
-}
-}
  @media (max-width: 991px){
   .main-header {
     padding: 20px 0px;
@@ -979,7 +965,3 @@ font-family: 'Rubik' !important;
     padding: 0 40px 0 40px;
 }
  }
- button#my-form-button {
-  font-family: 'garnet-normal', sans-serif;
-  cursor: pointer;
-}
