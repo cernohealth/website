@@ -965,3 +965,14 @@ font-family: 'Rubik' !important;
     padding: 0 40px 0 40px;
 }
  }
+
+
+ /****22-02-2022***/
+ img.name-img {
+    margin: 10px 0;
+}
+
+iframe.iframe-image {
+    height: 50px !important;
+    width: 100%;
+}
