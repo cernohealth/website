@@ -976,3 +976,461 @@ iframe.iframe-image {
     height: 50px !important;
     width: 100%;
 }
+
+/*****15-03-2022******/
+@media(min-width: 992px){
+div#header-container, div#footer-container{
+  width: 80%;
+}
+}
+
+section.accordion {
+    margin: 10%  0;
+}
+
+section.accordion h4.panel-title {
+        font-size: 25px;
+        font-family: 'Rubik' !important;
+      }
+
+      section.accordion h2.accordion-title {
+        color: #0D0A47;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 500;
+        font-family: 'Font Awesome 5 Free';
+        padding-bottom: 40px;
+        font-family: 'Rubik' !important;
+            line-height: 1.2;
+      }
+
+      section.accordion .panel-group .panel {
+        margin-bottom: 0;
+        border-radius: 4px;
+        border-bottom: 2px solid blue;
+        padding-top: 10px;
+      }
+
+      section.accordion .panel-default>.panel-heading {
+        color: #333;
+        background-color: #fff;
+        border-color: #e4e5e7;
+        padding: 0;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      section.accordion .panel-default>.panel-heading a {
+        display: block;
+        padding: 18px 18px;
+        border-radius: 10px;
+        font-weight: 700;
+        font-family: 'Rubik' !important;
+        font-size: 20px;
+      }
+
+      section.accordion .panel-default {
+        border-color: none;
+        border: none;
+      }
+
+      section.accordion .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        border: none;
+      }
+
+      section.accordion .panel-default>.panel-heading a:after {
+        content: "";
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        float: right;
+        transition: transform .25s linear;
+        -webkit-transition: -webkit-transform .25s linear;
+      }
+
+      section.accordion .panel-default>.panel-heading a[aria-expanded="true"] {
+        background-color: #FFD9D9;
+        color: black;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: 'Rubik' !important;
+      }
+
+      section.accordion .panel-default>.panel-heading a[aria-expanded="true"]:after {
+        content: "\e113";
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+       color: blue;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+      }
+
+      section.accordion .panel-body {
+        font-size: 18px;
+        padding-right: 55px;
+        color: black;
+        font-family: 'Rubik' !important;
+      }
+
+      section.accordion .panel-default>.panel-heading a[aria-expanded="false"]:after {
+        content: "\e113";
+        -webkit-transform: rotate(\180deg);
+        transform: rotate(180deg);
+       color: blue;
+    font-size: 20px;
+   
+      }
+
+      /*@media (min-width: 1025px) and (max-width: 1401px) {
+        body {
+          color: #6a6c6f;
+          overflow-x: hidden;
+          margin-top: 0;
+        }
+
+        section.accordion h2.accordion-title {
+          color: red;
+          font-size: 36px;
+          font-family: 'Font Awesome 5 Free';
+          padding-bottom: 20px;
+          margin: 0;
+          padding-top: 20px;
+        }
+
+        section.accordion .panel-group .panel {
+          padding-top: 0;
+        }
+
+        section.accordion .panel-default>.panel-heading a {
+          display: block;
+          padding: 16px 16px;
+          border-radius: 7px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"] {
+          font-size: 24px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="false"]:after {
+          content: "\e113";
+          font-size: 19px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"]:after {
+          content: "\e113";
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          color: #00d0ff;
+          font-size: 19px;
+        }
+
+        section.accordion .panel-body {
+          font-size: 19px;
+          padding-right: 5px;
+          color: black;
+          text-align: center;
+          padding-left: 5px;
+        }
+
+        section.accordion h4.panel-title {
+          font-size: 20px;
+        }
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        body {
+          color: #6a6c6f;
+          overflow-x: hidden;
+          margin-top: 0;
+        }
+
+        section.accordion h2.accordion-title {
+          color: red;
+          font-size: 34px;
+          font-family: 'Font Awesome 5 Free';
+          padding-bottom: 20px;
+          margin: 0;
+          padding-top: 20px;
+        }
+
+        section.accordion .panel-group .panel {
+          padding-top: 0;
+        }
+
+        section.accordion .panel-default>.panel-heading a {
+          display: block;
+          padding: 15px 15px;
+          border-radius: 7px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"] {
+          font-size: 22px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="false"]:after {
+          content: "\e113";
+          font-size: 18px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"]:after {
+          content: "\e113";
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          color: #00d0ff;
+          font-size: 18px;
+        }
+
+        section.accordion .panel-body {
+          font-size: 17px;
+          padding-right: 5px;
+          color: black;
+          text-align: center;
+          padding-left: 5px;
+        }
+
+        section.accordion h4.panel-title {
+          font-size: 19px;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        body {
+          color: #6a6c6f;
+          overflow-x: hidden;
+          margin-top: 0;
+        }
+
+        section.accordion h2.accordion-title {
+          color: red;
+          font-size: 30px;
+          font-family: 'Font Awesome 5 Free';
+          padding-bottom: 20px;
+          margin: 0;
+          padding-top: 20px;
+        }
+
+        section.accordion .panel-group .panel {
+          padding-top: 0;
+        }
+
+        section.accordion .panel-default>.panel-heading a {
+          display: block;
+          padding: 14px 14px;
+          border-radius: 7px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"] {
+          font-size: 20px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="false"]:after {
+          content: "\e113";
+          font-size: 16px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"]:after {
+          content: "\e113";
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          color: #00d0ff;
+          font-size: 16px;
+        }
+
+        section.accordion .panel-body {
+          font-size: 17px;
+          padding-right: 5px;
+          color: black;
+          text-align: center;
+          padding-left: 5px;
+        }
+
+        section.accordion h4.panel-title {
+          font-size: 19px;
+        }
+      }
+
+      @media (min-width: 577px) and (max-width: 768px) {
+        body {
+          color: #6a6c6f;
+          overflow-x: hidden;
+          margin-top: 0;
+        }
+
+        section.accordion h2.accordion-title {
+          color: red;
+          font-size: 30px;
+          font-family: 'Font Awesome 5 Free';
+          padding-bottom: 20px;
+          margin: 0;
+          padding-top: 20px;
+        }
+
+        section.accordion .panel-group .panel {
+          padding-top: 0;
+        }
+
+        section.accordion .panel-default>.panel-heading a {
+          display: block;
+          padding: 14px 14px;
+          border-radius: 7px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"] {
+          font-size: 20px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="false"]:after {
+          content: "\e113";
+          font-size: 16px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"]:after {
+          content: "\e113";
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          color: #00d0ff;
+          font-size: 16px;
+        }
+
+        section.accordion .panel-body {
+          font-size: 17px;
+          padding-right: 5px;
+          color: black;
+          text-align: center;
+          padding-left: 5px;
+        }
+
+        section.accordion h4.panel-title {
+          font-size: 19px;
+        }
+      }
+
+      @media (min-width: 425px) and (max-width: 576px) {
+        body {
+          color: #6a6c6f;
+          overflow-x: hidden;
+          margin-top: 0;
+        }
+
+        section.accordion h2.accordion-title {
+          color: red;
+          font-size: 27px;
+          font-family: 'Font Awesome 5 Free';
+          padding-bottom: 20px;
+          margin: 0;
+          padding-top: 20px;
+        }
+
+        section.accordion .panel-group .panel {
+          padding-top: 0;
+        }
+
+        section.accordion .panel-default>.panel-heading a {
+          display: block;
+          padding: 12px 12px;
+          border-radius: 7px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"] {
+          font-size: 17px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="false"]:after {
+          content: "\e113";
+          font-size: 14px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"]:after {
+          content: "\e113";
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          color: #00d0ff;
+          font-size: 14px;
+        }
+
+        section.accordion .panel-body {
+          font-size: 15px;
+          padding-right: 5px;
+          color: black;
+          text-align: center;
+          padding-left: 5px;
+        }
+
+        section.accordion h4.panel-title {
+          font-size: 17px;
+        }
+      }
+
+      @media (min-width: 250px) and (max-width: 424px) {
+        body {
+          color: #6a6c6f;
+          overflow-x: hidden;
+          margin-top: 0;
+        }
+
+        section.accordion h2.accordion-title {
+          color: red;
+          font-size: 25px;
+          font-family: 'Font Awesome 5 Free';
+          padding-bottom: 20px;
+          margin: 0;
+          padding-top: 20px;
+        }
+
+        section.accordion .panel-group .panel {
+          padding-top: 0;
+        }
+
+        section.accordion .panel-default>.panel-heading a {
+          display: block;
+          padding: 10px 10px;
+          border-radius: 7px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"] {
+          font-size: 15px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="false"]:after {
+          content: "\e113";
+          font-size: 12px;
+        }
+
+        section.accordion .panel-default>.panel-heading a[aria-expanded="true"]:after {
+          content: "\e113";
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          color: #00d0ff;
+          font-size: 12px;
+        }
+
+        section.accordion .panel-body {
+          font-size: 15px;
+          padding-right: 5px;
+          color: black;
+          text-align: center;
+          padding-left: 5px;
+        }
+
+        section.accordion h4.panel-title {
+          font-size: 15px;
+        }
+      }*/
+
+      /* body {
+  background-color: #6DC4F4;
+}h1 { 
+     color:white;
+ 
+} */
+
+
